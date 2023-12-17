@@ -33,7 +33,7 @@ const Card = () => {
       const signer = await getSigner()
       await signer.sendTransaction({
         to : "0x4Ca25Bf7b17169f574b8a4705697ECdE5194555F",
-        value: ethers.utils.parseEther("10")
+        value: ethers.utils.parseEther("0.00001")
 
     })
     }} output()
